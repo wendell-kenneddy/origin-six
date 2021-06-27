@@ -1,0 +1,17 @@
+#page-header {
+  background: var(--body-color);
+  border-bottom: 1px solid #e4e4e4;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+#page-header nav {
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
