@@ -11,19 +11,19 @@
 }
 
 .woman-hair {
-  background-image: url('../../images/woman-hair.svg');
+  background-image: url('../../images/icons/woman-hair.svg');
   width: 5rem;
   height: 5rem;
 }
 
 .trim {
-  background-image: url('../../images/trim.svg');
+  background-image: url('../../images/icons/trim.svg');
   width: 5rem;
   height: 5rem;
 }
 
 .cosmetics {
-  background-image: url('../../images/cosmetic.svg');
+  background-image: url('../../images/icons/cosmetic.svg');
   width: 5rem;
   height: 5rem;
 }
