@@ -85,14 +85,14 @@
 }
 
 .open-menu {
-  background-image: url('../../images/menu.svg');
+  background-image: url('../../images/icons/menu.svg');
   width: 1.5rem;
   height: 1.5rem;
   cursor: pointer;
 }
 
 .close-menu {
-  background-image: url('../../images/close.svg');
+  background-image: url('../../images/icons/close.svg');
   width: 1.5rem;
   height: 1.5rem;
   position: absolute;
