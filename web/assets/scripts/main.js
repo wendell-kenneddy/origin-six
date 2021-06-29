@@ -4,6 +4,7 @@ import { handleScroll } from './handleScroll.js';
 import { swiper } from './swiper.js';
 import { scrollReveal } from './scrollReveal.js';
 
+handleScroll();
 watchMenu();
 watchNavLinks();
 watchScroll();
