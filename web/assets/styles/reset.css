@@ -93,6 +93,33 @@ body {
   height: 1px;
 }
 
+.icon.arrow-up {
+  background-image: url('../images/icons/arrow-up.svg');
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.back-to-top {
+  background-color: var(--base-color);
+  padding: 0.5rem;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  clip-path: circle();
+  display: flex;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(100%) rotate(180deg);
+  transition: 0.3s;
+}
+
+.back-to-top.show {
+  visibility: visible;
+  transform: translateY(0) rotate(0deg);
+  opacity: 1;
+}
+
 main {
   margin-top: calc(4.5rem + 2rem);
 }
