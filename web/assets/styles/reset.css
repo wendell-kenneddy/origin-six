@@ -58,6 +58,10 @@ body {
   color: var(--title-color);
 }
 
+.logo.logo-alt span {
+  color: var(--body-color);
+}
+
 .logo > span {
   color: var(--base-color);
 }
