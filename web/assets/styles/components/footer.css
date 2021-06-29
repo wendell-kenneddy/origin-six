@@ -1,0 +1,47 @@
+.icon.instagram {
+  background-image: url('../../images/icons/instagram.svg');
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.icon.youtube {
+  background-image: url('../../images/icons/youtube.svg');
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.icon.facebook {
+  background-image: url('../../images/icons/facebook.svg');
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+footer {
+  background: var(--base-color);
+}
+
+footer .brand .logo {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+footer .brand p {
+  margin-bottom: 0.75rem;
+  color: var(--text-color-light);
+}
+
+footer .social {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+footer .social a {
+  display: inline-block;
+  transition: 0.3s;
+}
+
+footer .social a:hover {
+  transform: translateY(-0.5rem);
+}
