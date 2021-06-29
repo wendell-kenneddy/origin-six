@@ -7,4 +7,3 @@ import { scrollReveal } from './scrollReveal.js';
 handleScroll();
 watchMenu();
 watchNavLinks();
-watchScroll();
