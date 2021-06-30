@@ -37,7 +37,7 @@ img {
 
 body {
   background-color: var(--body-color);
-  font: 400 1rem 'DM Sans', sans-serif;
+  font: 400 1rem var(--body-font);
   color: var(--text-color);
   -webkit-font-smoothing: antialised;
 }
@@ -55,13 +55,13 @@ body {
 }
 
 .title {
-  font: 700 1.875rem 'Poppins', sans-serif;
+  font: 700 var(--title-font-size) var(--title-font);
   color: var(--title-color);
   -webkit-font-smoothing: antialised;
 }
 
 .logo {
-  font: 700 1.875rem 'Poppins', sans-serif;
+  font: 700 1.875rem var(--title-font);
   font-size: 1.31rem;
   color: var(--title-color);
 }
@@ -75,7 +75,11 @@ body {
 }
 
 .section {
-  padding: 5rem 0;
+  padding: calc(5rem + var(--header-height)) 0;
+}
+
+.section .subtitle {
+  font-size: var(--subtitle-font-size);
 }
 
 .grid {
@@ -129,5 +133,5 @@ body {
 }
 
 main {
-  margin-top: calc(4.5rem + 2rem);
+  margin-top: calc(var(--header-height) + 2rem);
 }
