@@ -65,7 +65,8 @@
   position: relative;
 }
 
-#page-header nav ul li a:hover {
+#page-header nav ul li a:hover,
+#page-header nav ul li a.active {
   color: var(--base-color);
 }
 
@@ -80,8 +81,15 @@
   transition: width 0.2s;
 }
 
-#page-header nav ul li a:hover::after {
+#page-header nav ul li a:hover::after,
+#page-header nav ul li a.active::after {
   width: 100%;
+  font-weight: bold;
+}
+
+#page-header nav .menu ul li a.title.active {
+  font-weight: 700;
+  -webkit-font-smoothing: auto;
 }
 
 .open-menu {
