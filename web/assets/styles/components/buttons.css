@@ -5,7 +5,7 @@
   height: 3.5rem;
   display: inline-flex;
   align-items: center;
-  font: 500 1rem 'DM Sans', sans-serif;
+  font: 500 1rem var(--title-font);
   color: var(--text-color-light);
   transition: background 0.3s;
 }
