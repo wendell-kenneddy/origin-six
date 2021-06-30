@@ -6,6 +6,7 @@ const swiper = new Swiper(
     pagination: {
       el: '.swiper-pagination'
     },
+    grabCursor: true,
     mouseWheel: true,
     keyboard: true
   }
