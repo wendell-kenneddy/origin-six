@@ -1,10 +1,9 @@
-import { toggleMenu } from './toggleMenu.js';
+const nav = document.querySelector('#page-header nav');
+const navLinks = document.querySelectorAll('#page-header nav ul li a');
 
 const watchNavLinks = () => {
-  const navLinks = document.querySelectorAll('#page-header nav ul li a');
-
   for (const link of navLinks) {
-    link.addEventListener('click', e => toggleMenu());
+    link.addEventListener('click', e => nav.classList.remove('show'));
   }
 };
 
