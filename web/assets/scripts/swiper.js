@@ -8,7 +8,13 @@ const swiper = new Swiper(
     },
     grabCursor: true,
     mouseWheel: true,
-    keyboard: true
+    keyboard: true,
+    breakpoints: {
+      767: {
+        slidesPerView: 2,
+        setWrapperWidth: true
+      }
+    }
   }
 );
 
